@@ -1,0 +1,17 @@
+.heading {
+  // border: 1px solid #000;
+  &-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px 0 20px 50%;
+    // border: 1px solid #000;
+  }
+  &-text {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+}
+.heading b {
+  font-size: 25px;
+}

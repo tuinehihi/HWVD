@@ -1,0 +1,106 @@
+/* body {
+  /* font-family: "Poppins", sans-serif; 
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  line-height: 1.5;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 173, 173, 0.3),
+    rgba(255, 214, 165, 0.3),
+    rgba(253, 255, 182, 0.3),
+    rgba(202, 255, 191, 0.3),
+    rgba(155, 246, 255, 0.3),
+    rgba(160, 196, 255, 0.3),
+    rgba(189, 178, 255, 0.3),
+    rgba(255, 198, 255, 0.3),
+    rgba(255, 255, 252, 0.3)
+  );
+  padding: 10vh 50px 10vh 50px;
+  color: #202930;
+} */
+
+.heart-icon {
+  width: 25px;
+  height: 25px;
+}
+.calendar {
+  width: 60vw;
+  min-height: 80vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(249, 249, 249, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  color: #fc93a5;
+  /* border: 1px solid #000; */
+}
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.calendar-month {
+  display: block;
+  color: #fd6c84;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px 30px;
+  letter-spacing: 10px;
+}
+.calendar-table {
+  width: 100%;
+  vertical-align: middle;
+  table-layout: fixed;
+}
+.calendar-table th {
+  color: #fd6c84;
+  font-weight: bold;
+  font-size: 23px;
+}
+.calendar-table th,
+.calendar-table td {
+  padding: 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+.calendar-table td {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* .calendar-table td.other {
+  color: rgba(249, 249, 249, 0.5);
+} */
+.calendar-table td.other {
+  color: #fc93a5;
+  background-color: rgba(249, 249, 249, 0.5);
+  opacity: 0.1;
+}
+.calendar-table td:hover {
+  color: #202930;
+  background-color: #fc93a5;
+}
+.calendar-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+/* @media screen and (max-width: 767px) {
+  .calendar {
+    padding: 1.5rem;
+  }
+  .calendar-header {
+    margin-bottom: 5px;
+  }
+  .calendar-content {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .calendar td {
+    font-size: 1.2rem;
+    width: auto;
+    height: auto;
+  }
+} */
